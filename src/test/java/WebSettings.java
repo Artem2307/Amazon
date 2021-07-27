@@ -18,6 +18,7 @@ public class WebSettings  {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);
+        driver.get("https://www.amazon.com/");
 
     }
     @After
