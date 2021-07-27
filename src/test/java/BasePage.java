@@ -10,7 +10,6 @@ public class BasePage extends WebSettings{
         driver.get("https://www.amazon.com/");
         String title = driver.getTitle();
         System.out.println(title);
-        driver.quit();
     }
 
     @Test
